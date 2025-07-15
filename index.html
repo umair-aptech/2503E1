@@ -1,14 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
 </head>
+
 <body>
-    <h1>this is h1</h1>
-    <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores accusamus autem atque odit voluptas a excepturi vel delectus, dignissimos dolorum! Praesentium, aliquam recusandae? Fuga pariatur odit at voluptatem sequi minima.
-    </p>
+    <!-- header  -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="asset/Image/iconDark.jpg" alt="National Park"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#park">Park</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-btn" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+    <!-- Now the intro  -->
+    <div class="intro">
+        <div class="intro-content">
+            <h1>Welcome to National Park</h1>
+            <p>Discover the wonders of Pakistan's national parks—your ultimate destination for exploring breathtaking
+                landscapes and fascinating wildlife.</p>
+        </div>
+    </div>
+    <!-- park list  -->
+    <div id="park">
+        <div class="seaction_heading">
+            <h5>PARK</h5>
+            <h3>Most Famous in <span>PAKISTAN</span></h3>
+
+        </div>
+        <div class="parks">
+            <div class="park-card">
+                <a href="park/Hingol Park.html">
+                    <img src="asset/Image/park/balochistan.jpg" alt="Hingol Park">
+                    <div class="park-info">
+                        <h2>Hingol Park</h2>
+                        <p>Unveiling the Majesty of Hingol: Balochistan's Largest National Park.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="park-card">
+                <a href="park/Kirthar Park.html">
+                    <img src="asset/Image/park/Kirthar.jpg" alt="Kirthar Park">
+                    <div class="park-info">
+                        <h2>Kirthar Park</h2>
+                        <p>Fell a Majestic Wildlife Haven in the Heart of Sindh, Pakistan.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="park-card">
+                <a href="park/Ayub National Park.html">
+                    <img src="asset/Image/park/Ayub National Park.jpg" alt="Kirthar Park">
+                    <div class="park-info">
+                        <h2>Ayub National Park</h2>
+                        <p>Experience Nature's Splendor in the Heart of Rawalpindi</p>
+                    </div>
+                </a>
+            </div>
+            <div class="park-card">
+                <a href="park/Central Karakoram National.html">
+                    <img src="asset/Image/park/Central Karakoram Nationa.jpg" alt="Kirthar Park">
+                    <div class="park-info">
+                        <h2>Central Karakoram Park</h2>
+                        <p>Explore the Majestic Peaks and Untamed Wilderness of Central Karakoram</p>
+                    </div>
+                </a>
+            </div>
+            <div class="park-card">
+                <a href="park/Chinji National Park.html">
+                    <img src="asset/Image/park/Chinji National Park.jpg" alt="Kirthar Park">
+                    <div class="park-info">
+                        <h2>Chinji National Park</h2>
+                        <p>Discover the Unique Landscape and Wildlife of Chinji National Park</p>
+                    </div>
+                </a>
+            </div>
+            <div class="park-card">
+                <a href="park/Khunjerab National Park.html">
+                    <img src="asset/Image/park/Khunjerab National Park.jpg" alt="Kirthar Park">
+                    <div class="park-info">
+                        <h2>Khunjerab National Park</h2>
+                        <p>Where Glaciers and Wildlife Thrive at the Roof of the World</p>
+
+                    </div>
+                </a>
+            </div>
+            <!-- Add more park cards as needed -->
+        </div>
+    </div>
+    <!-- animal list  -->
+    <div id="animal">
+        <div class="seaction_heading">
+            <h5>ANIMAL</h5>
+            <h3>You Will <span>MEET</span></h3>
+        </div>
+        <div class="animals">
+            <div class="animal-card">
+                <img src="asset/Image/animales/Snow Leopard.jpg" alt="Snow Leopard">
+                <h3>Snow Leopard</h3>
+            </div>
+            <div class="animal-card">
+                <img src="asset/Image/animales/Dolphine.jpg" alt="Snow Leopard">
+                <h3>Dolphine</h3>
+            </div>
+            <div class="animal-card">
+                <img src="asset/Image/animales/Black_Bear.jpg" alt="Snow Leopard">
+                <h3>Black Bear</h3>
+            </div>
+            <div class="animal-card">
+                <img src="asset/Image/animales/Houbara Bustard.jpg" alt="Snow Leopard">
+                <h3>Houbara Bustard</h3>
+            </div>
+            <div class="animal-card">
+                <img src="asset/Image/animales/Pied Kingfisher.jpg" alt="Snow Leopard">
+                <h3>Pied Kingfisher</h3>
+            </div>
+            <div class="animal-card">
+                <img src="asset/Image/animales/Pallas's Fish Eagle.jpg" alt="Snow Leopard">
+                <h3>Pallas's Fish Eagle</h3>
+            </div>
+            <div class="animal-card">
+                <img src="asset/Image/animales/Marsh Crocodile.jpg" alt="Snow Leopard">
+                <h3>Marsh Crocodile</h3>
+            </div>
+            <div class="animal-card">
+                <img src="asset/Image/animales/Monitor Lizard.jpg" alt="Snow Leopard">
+                <h3>Monitor Lizard</h3>
+            </div>
+            <div class="animal-card">
+                <img src="asset/Image/animales/Skittering Frog.jpg" alt="Snow Leopard">
+                <h3>Skittering Frog</h3>
+            </div>
+
+            <div class="animal-card">
+                <img src="asset/Image/animales/Giraffe_standing.jpg" alt="Snow Leopard">
+                <h3>Girrafa</h3>
+            </div>
+        </div>
+
+    </div>
+    <!-- best time to visit -->
+    <div id="visit">
+        <div class="seaction_heading">
+            <h5>Visit</h5>
+            <h3>Best Time to Enjoy <span>Life</span></h3>
+        </div>
+        <div class="visit">
+            <div class="row">
+                <div class="col1">
+                    <h2>Make Your Moment</h2>
+                    <p>
+                        The best months to visit Pakistan's national parks are April to October, as the weather during
+                        this period is generally pleasant. Spring and early summer (April to June) showcase blooming
+                        landscapes, while late summer and autumn (September to October) provide clearer skies and cooler
+                        temperatures, ideal for trekking and exploring wildlife.
+                    </p>
+                </div>
+                <div class="col2"><img src="asset/Image/park/visit1.jpg" alt=""></div>
+            </div>
+            <div class="row">
+                <div class="col3"><img src="asset/Image/park/visit2.jpg" alt=""></div>
+                <div class="col4">
+                    <h2>Capture the Beauity</h2>
+                    <p>
+                        If you're planning a trip to the northern parks like Khunjerab National Park or Central
+                        Karakoram, July and August are great for accessing high-altitude areas, as the snow has melted
+                        by then. For parks in warmer regions like Chinji National Park, early spring or late autumn
+                        offers comfortable weather.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="index.html">
+                    <img src="asset/Image/iconDark.jpg" alt="National Park">
+                </a>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#park">Park</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: <a href="mailto:affan@apteck.com">info@nationalpark.com</a></p>
+                <p>Phone: <a href="tel:+92 343 1234567">+92 343 1234567</a></p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 National Park. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector(".nav-links");
+            navLinks.classList.toggle("active");
+        }
+    </script>
+
 </body>
+
 </html>

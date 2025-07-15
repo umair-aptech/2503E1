@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinji National Park</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+</head>
+
+<body>
+    <!-- header  -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="../index.html"><img src="../asset/Image/iconDark.jpg" alt="National Park"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#park">Park</a></li>
+                    <li><a href="../gallery.html">Gallery</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-btn" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+    
+    <main class="parkMian">
+        <div class="parkIntro" style="background-image: url('../asset/Image/park/Chinji\ National\ Park.jpg');">
+            <h2>Chinji National Park</h2>
+            <p>
+                Chinji National Park, located in Punjab, Pakistan, is a picturesque reserve covering approximately 6,000 acres. It features rolling hills, unique rock formations, and lush vegetation, making it a serene escape. The park is home to diverse wildlife, including the Punjab urial, Indian wolf, and various bird species. It's a hidden gem for nature lovers and conservation enthusiasts!
+            </p>
+        </div>
+        <div class="parkOpen">
+            <div>
+                <h3>Timing</h3>
+                <hr>
+                <ul>
+                    <li>9am - 12pm</li>
+                    <hr>
+                    <li>3pm to 7pm</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Days</h3>
+                <hr>
+                <ul>
+                    <li>Mon - Fri</li>
+                    <hr>
+                    <li>Sat - Sun</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Price</h3>
+                <hr>
+                <ul>
+                    <li>Rs:500 per Person</li>
+                    <hr>
+                    <li>Rs: 800 per Person</li>
+                </ul>
+            </div>
+        </div>
+        <div class="costomerReview">
+            <div>
+                <img src="../asset/Image/icon/profile-user.png" alt=""> <br>
+                <h2>Visitors</h2>
+                <p>5 Lack+</p>
+            </div>
+            <div>
+                <img src="../asset/Image/icon/jeep.png" alt=""> <br>
+                <h2>Safaries</h2>
+                <p>50,000 +</p>
+            </div>
+            <div>
+                <img src="../asset/Image/icon/star.png" alt=""> <br>
+                <h2>Ratings</h2>
+                <p>4.4 + </p>
+            </div>
+            <div>
+                <img src="../asset/Image/icon/like.png" alt=""> <br>
+                <h2>Reviews</h2>
+                <p>23,000 +</p>
+            </div>
+        </div>
+        <div class="location">
+            <h2>Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3358.962502095889!2d72.3728728104748!3d32.660441989826204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39209047c9017c77%3A0x9fe27aa6683d3710!2sChinji%20National%20Park!5e0!3m2!1sen!2s!4v1742271610980!5m2!1sen!2s" width="100% " height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+    
+    
+    <!-- footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="../index.html">
+                    <img src="../asset/Image/iconDark.jpg" alt="National Park">
+                </a>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#park">Park</a></li>
+                    <li><a href="../gallery.html">Gallery</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: <a href="mailto:affan@apteck.com">info@nationalpark.com</a></p>
+                <p>Phone: <a href="tel:+92 343 1234567">+92 343 1234567</a></p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 National Park. All rights reserved.</p>
+        </div>
+    </footer>
+    
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector(".nav-links");
+            navLinks.classList.toggle("active");
+        }
+    </script>
+
+</body>
+
+</html>

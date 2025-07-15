@@ -1,0 +1,33 @@
+1. Home Page
+
+National Park ka logo aur header section (animals ki images ke saath).
+Navigation links jo baki pages tak le jayein.
+Introductory section about National Parks & Wildlife.
+
+2. About Us Page
+
+National Park system ka overview.
+Existing system vs proposed system comparison.
+Mission & vision of the project.
+
+
+4. Individual National Park Page
+
+Park Name, Image, Description.
+List of wild animals & birds jo wahan paaye jate hain.
+Available facilities & activities (e.g., camping, safari, guides).
+Downloadable Word document for detailed features.
+
+5. Animal Info Page
+
+Har National Park ke well-known animals & birds ka detail.
+Unka habitat, behavior, conservation status, etc.
+Related images ya videos.
+
+
+7. Contact Us Page
+
+Users inquiries & feedback ke liye form.
+Email, Phone Number, Social Media Links.
+
+
